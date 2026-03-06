@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis De Avila · backend & ia</title>
+    
+    <!-- Meta tags -->
+    <meta name="description" content="Estudiante de Ingeniería en Sistemas · 9no semestre · Especializado en Python, JavaScript e IA">
+    <meta name="author" content="Luis Alberto De Ávila">
+    
+    <!-- Fonts premium -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- ========== FONDO DE PARTÍCULAS SUTIL ========== -->
+    <div class="noise"></div>
+    <div class="gradient-bg"></div>
+    
+    <!-- ========== NAVEGACIÓN LATERAL ========== -->
+    <nav class="side-nav">
+        <div class="nav-logo">
+            <span>L.</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i><span>Inicio</span></a></li>
+            <li><a href="#about" class="nav-link"><i class="fas fa-user"></i><span>Sobre mí</span></a></li>
+            <li><a href="#skills" class="nav-link"><i class="fas fa-code"></i><span>Skills</span></a></li>
+            <li><a href="#projects" class="nav-link"><i class="fas fa-rocket"></i><span>Proyectos</span></a></li>
+            <li><a href="#contact" class="nav-link"><i class="fas fa-paper-plane"></i><span>Contacto</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- ========== BOTÓN MENÚ MÓVIL ========== -->
+    <div class="mobile-menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <main>
+        <!-- ========== HERO SECTION - IMPACTO VISUAL ========== -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>Disponible para proyectos!</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="hero-title-line">Luis De Avila</span>
+                    <span class="hero-title-gradient">Backend & IA</span>
+                </h1>
+                <p class="hero-description">
+                    Estudiante de Ingeniería en Sistemas · 9no semestre · USC<br>
+                    Transformando ideas en una arquitectura limpia y escalable!
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        Mira mis proyectos!
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Contáctame!
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">2+</span>
+                        <span class="hero-stat-label">años codeando</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">4+</span>
+                        <span class="hero-stat-label">años estudiando</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">∞</span>
+                        <span class="hero-stat-label">por aprender</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <span>Scroll</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- ========== ABOUT - DISEÑO EDITORIAL ========== -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Sobre mí</h2>
+                <div class="about-grid">
+                    <div class="about-card about-card-large">
+                        <div class="about-card-content">
+                            <span class="about-tag">ingeniería · sistemas</span>
+                            <h3>9no semestre · USC</h3>
+                            <p class="about-text-large">
+                                Especializado en <span class="gradient-text">desarrollo backend</span> con Python y JavaScript. 
+                                Me apasiona crear scripts eficientes.
+                                Apasionado de pensar, crear y desarrollar ideas, amante de probar limites y de la 
+                                <span class="gradient-text">inteligencia artificial</span>.
+                            </p>
+                            <p class="about-text-large">
+                                Disfruto resolver problemas usando una arquitectura limpia y organizada
+                                    para que otros puedan entender y usar mis proyectos, soy una persona que sabe
+                                    trabajar en equipo.
+                                    
+                                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-card about-card-small">
+                        <div class="about-card-content">
+                            <h4><i class="fas fa-heart" style="color: var(--primary);"></i> Intereses</h4>
+                            <ul class="about-list">
+                                <li>Inteligencia Artificial</li>
+                                <li>Automatización</li>
+                                <li>Arquitectura limpia</li>
+                                <li>Bases de datos</li>
+                                <li>Backend</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-card about-card-small">
+                        <div class="about-card-content">
+                            <h4><i class="fas fa-globe" style="color: var(--primary);"></i> Idiomas</h4>
+                            <ul class="about-list">
+                                <li>🇪🇸 Español · Nativo</li>
+                                <li>🇬🇧 Inglés · Intermedio</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SKILLS - TARJETAS CON GLASSMORPHISM ========== -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-showcase">
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item glass-card">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item glass-card">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Bases de datos</h3>
+                        <div class="skill-items">
+                            <div class="skill-item glass-card">
+                                <i class="fas fa-database"></i>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="skill-item glass-card">
+                                <i class="fas fa-database"></i>
+                                <span>PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Herramientas/FrameWorks</h3>
+                        <div class="skill-items">
+                            <div class="skill-item glass-card">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+<!-- En tu sección de skills, dentro de Herramientas -->
+<div class="skill-item glass-card">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" viewBox="0 0 24 24" style="fill: #bd64e7;">
+        <path d="m23.693 10.706l-4.73-8.185c-.41-.71-1.417-1.294-2.24-1.294h-9.45c-.82 0-1.831.584-2.24 1.294L.306 10.706c-.41.71-.41 1.873 0 2.584l4.725 8.189c.41.71 1.417 1.294 2.24 1.294h9.455c.82 0 1.826-.584 2.24-1.294l4.726-8.19c.41-.71.41-1.873 0-2.583zM10.976 5.755c0-.537.438-.975.974-.975s.975.438.975.975v5.821a.976.976 0 0 1-1.948 0zm.974 12.43a6.616 6.616 0 0 1-6.607-6.609A6.638 6.638 0 0 1 8.01 6.272a.866.866 0 0 1 1.214.18a.866.866 0 0 1-.178 1.213a4.876 4.876 0 0 0 5.812 7.827a4.875 4.875 0 0 0 1.967-3.916a4.897 4.897 0 0 0-1.986-3.925a.87.87 0 0 1-.183-1.214a.87.87 0 0 1 1.214-.183a6.631 6.631 0 0 1 2.687 5.322a6.613 6.613 0 0 1-6.608 6.608"/>
+    </svg>
+    <span>Spring Boot</span>
+</div>
+                            <div class="skill-item glass-card">
+                                <i class="fas fa-robot"></i>
+                                <span>IA/ML</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== PROYECTOS - GRID CINEMATOGRÁFICO ========== -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Proyectos</h2>
+                <div class="projects-grid">
+<!-- PROYECTO: FincaApp - Gestión Agrícola -->
+<div class="project-card glass-card">
+    <div class="project-icon">
+        <i class="fas fa-tractor"></i>  
+    </div>
+    <h3>FincaApp</h3>
+    <p>Aplicación para la gestión agrícola integral: administración de trabajadores, lotes y labores del campo. Desarrollada con Spring Boot.</p>
+    <div class="project-tech">
+        <span>Spring Boot</span>   
+        <span>Java</span>          
+        <span>Thymeleaf</span>     
+        <span>Maven</span>         
+    </div>
+    <div class="project-footer">
+        
+        <a href="https://github.com/Luxury213/fincaapp" target="_blank" class="project-link">
+            <i class="fab fa-github"></i>
+            <span>Código</span>
+        </a>
+        
+        <a href="https://github.com/Luxury213/fincaapp" target="_blank" class="project-link">
+            <i class="fas fa-external-link-alt"></i>
+            <span>Demo (en desarrollo)</span>
+        </a>
+    </div>
+</div>
+<!-- PROYECTO: hand2emoji - Detección de Emojis con la Mano -->
+<div class="project-card glass-card">
+    <div class="project-icon">
+        <i class="fas fa-hand-peace"></i>  
+    </div>
+    <h3>hand2emoji</h3>
+    <p>Aplicación de visión por computadora que detecta gestos de la mano en tiempo real usando OpenCV y MediaPipe, y los traduce a emojis.</p>
+    <div class="project-tech">
+        <span>Python</span>           
+        <span>OpenCV</span>           
+        <span>MediaPipe</span>        
+        <span>Computer Vision</span>  
+    </div>
+    <div class="project-footer">
+        
+        <a href="https://github.com/Luxury213/hand2emoji" target="_blank" class="project-link">
+            <i class="fab fa-github"></i>
+            <span>Código</span>
+        </a>
+        
+        <a href="https://github.com/Luxury213/hand2emoji" target="_blank" class="project-link">
+            <i class="fas fa-external-link-alt"></i>
+            <span>Demo (en desarrollo)</span>
+        </a>
+    </div>
+</div>
+<!-- PROYECTO: Push It - Extensión Visual para Git en VS Code -->
+<div class="project-card glass-card">
+    <div class="project-icon">
+        <i class="fas fa-rocket"></i>  <!-- Icono coherente con el nombre y logo del proyecto -->
+    </div>
+    <h3>Push It </h3>
+    <p>Extensión open source para VS Code que añade una interfaz visual para Git. Haz commits, push y pull sin usar la terminal, con un diseño elegante en tonos morados.</p>
+    <div class="project-tech">
+        <span>TypeScript</span>        <!-- Lenguaje principal de extensiones VS Code -->
+        <span>VS Code API</span>       <!-- API para interactuar con el editor -->
+        <span>Git</span>                <!-- Tecnología base -->
+        <span>Open Source</span>        <!-- Característica clave -->
+    </div>
+    <div class="project-footer">
+        <!-- Enlace al repositorio en GitHub -->
+        <a href="https://github.com/Luxury213/push-it" target="_blank" class="project-link">
+            <i class="fab fa-github"></i>
+            <span>Código</span>
+        </a>
+        <!-- Enlace al Marketplace de VS Code (cuando esté publicado) -->
+        <a href="https://marketplace.visualstudio.com/items?itemName=LuisDeAvilaPushIt.push-it" target="_blank" class="project-link">
+            <i class="fas fa-external-link-alt"></i>
+            <span>Marketplace</span>
+        </a>
+    </div>
+</div>
+                </div>
+            </div>
+        </section>
+
+<!-- ========== CONTACTO - DISEÑO MINIMALISTA ========== -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-container">
+            <div class="contact-card glass-card">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <span>Email</span>
+                        <p>luisitodam@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <span>Ubicación</span>
+                        <p>Cali, Colombia</p>
+                    </div>
+                </div>
+                <div class="contact-social" style="display: flex; justify-content: center; margin-top: 2rem;">
+                    <a href="https://github.com/Luxury213" target="_blank" class="contact-social-link" style="display: inline-flex; align-items: center; gap: 0.8rem; padding: 1rem 2.5rem; min-width: 200px; justify-content: center;">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <p>© 2026 Luis De Avila </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
